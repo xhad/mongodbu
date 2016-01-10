@@ -1,0 +1,29 @@
+INSTALLING MONGO
+
+untar from mongodb website 
+
+tar xvf monog.tar
+
+cd /bin
+
+sudo su
+
+mkdir -p /data/db
+chmod 777 /data/db
+
+exit 
+
+ls -ld /data/db
+
+default port is 27017 
+
+./mongod
+
+db.names.insert({'name': 'chad'});
+
+kill server
+
+sudo su
+
+cp ~/bin/* /usr/local/bin
+
